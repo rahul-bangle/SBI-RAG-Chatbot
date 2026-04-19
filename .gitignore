@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr
+*.local
+.vercel
+.next/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# GSD / Claude State
+.planning/
+.claude/
+MASTER_CONTEXT.md
+project_dump.txt
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db

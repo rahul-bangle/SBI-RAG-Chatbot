@@ -1,0 +1,24 @@
+Subject: Weekly Pulse: User Insights to Inform Our Product Roadmap
+
+Dear Product and Growth Teams,
+
+This week's pulse note highlights key user insights that can inform our product development and growth strategies. The top themes that emerged from user feedback are:
+
+* Ease of use: Users appreciate our app's clean interface and ease of tracking mutual funds.
+* Technical issues: Users are experiencing problems with transactions, login, and KYC verification.
+* Support and transparency: Users are frustrated with unresponsive support and lack of clarity on issues.
+
+Some real user quotes that illustrate these themes include:
+* "Very easy to use and track my mutual funds. The interface is clean."
+* "My KYC has been pending for 2 weeks. Very frustrating. No support response."
+* "The app keeps asking for OTP again and again. Unable to login since morning."
+
+To address these concerns, we propose the following action ideas:
+* Fix UPI gateway issues to prevent transaction failures.
+* Improve support response time and provide clear updates on KYC and redemption status.
+* Optimize app loading time to enhance user experience.
+
+Let's work together to prioritize these initiatives and enhance our user experience.
+
+Best regards,
+[Your Name]

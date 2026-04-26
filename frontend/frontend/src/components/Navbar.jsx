@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Menu, X, Globe, User } from 'lucide-react';
 import API_BASE_URL from '../api';
 
-const Navbar = () => {
+const Navbar = ({ onNavigate }) => {
   const [status, setStatus] = useState({ online: false, text: 'Connecting...' });
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
       <nav className="fixed top-0 w-full z-[60] bg-white/90 backdrop-blur-md border-b border-[#EBEBF0] px-4 md:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4 md:gap-10">
-          <div className="flex items-center gap-2 cursor-pointer">
+          <div onClick={() => onNavigate('home')} className="flex items-center gap-2 cursor-pointer">
             <div className="w-8 h-8 rounded-full flex items-center justify-center border-2 border-groww-teal bg-white">
               <span className="text-groww-teal font-bold text-xs uppercase">S</span>
             </div>
@@ -40,6 +40,7 @@ const Navbar = () => {
             <a href="#" className="hover:text-groww-teal transition-colors">SBI Small Cap</a>
             <a href="#" className="hover:text-groww-teal transition-colors">SBI Bluechip</a>
             <a href="#" className="hover:text-groww-teal transition-colors">Large & Midcap</a>
+            <button onClick={() => onNavigate('pulse')} className="hover:text-groww-teal transition-colors">Pulse</button>
             <a href="#" className="hover:text-groww-teal transition-colors underline decoration-groww-teal decoration-2 underline-offset-8">Assistant</a>
           </div>
         </div>
@@ -72,9 +73,11 @@ const Navbar = () => {
       <div className={`fixed inset-0 z-50 bg-white transform transition-transform duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="pt-24 px-6 flex flex-col gap-8">
             <div className="flex flex-col gap-6 text-xl font-bold text-groww-dark">
+                <a href="#" onClick={() => { onNavigate('home'); setIsMenuOpen(false); }} className="hover:text-groww-teal">Home</a>
                 <a href="#" className="hover:text-groww-teal">SBI Small Cap</a>
                 <a href="#" className="hover:text-groww-teal">SBI Bluechip</a>
                 <a href="#" className="hover:text-groww-teal">Large & Midcap</a>
+                <a href="#" onClick={() => { onNavigate('pulse'); setIsMenuOpen(false); }} className="hover:text-groww-teal">Pulse</a>
                 <a href="#" className="text-groww-teal">Assistant</a>
             </div>
 

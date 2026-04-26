@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeaturesBar from './components/FeaturesBar';
 import SchemeGrid from './components/SchemeGrid';
 import FloatingAssistant from './components/FloatingAssistant';
+import PulseInsights from './components/PulseInsights';
 
 function App() {
+  const [view, setView] = useState('home');
+
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <Navbar onNavigate={setView} />
       
       <main>
-        <Hero />
-        <FeaturesBar />
-        <SchemeGrid />
+        {view === 'home' ? (
+          <>
+            <Hero />
+            <FeaturesBar />
+            <SchemeGrid />
+          </>
+        ) : (
+          <PulseInsights />
+        )}
       </main>
 
       <footer className="bg-groww-gray border-t border-[#EBEBF0] py-12 px-6 mt-12">

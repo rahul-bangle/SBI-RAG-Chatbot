@@ -1,0 +1,35 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "title": "Customer Onboarding",
+      "summary": "Users find the initial setup confusing, specifically the KYC process.",
+      "sentiment": "Negative"
+    },
+    {
+      "id": 2,
+      "title": "App Performance",
+      "summary": "General appreciation for the speed and responsiveness of the dashboard.",
+      "sentiment": "Positive"
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The KYC process felt like a maze. I almost gave up.",
+      "author": "Anonymous User"
+    }
+  ],
+  "actionItems": [
+    {
+      "id": 1,
+      "task": "Simplify KYC document upload flow",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "task": "Add tooltips to dashboard metrics",
+      "status": "completed"
+    }
+  ]
+}

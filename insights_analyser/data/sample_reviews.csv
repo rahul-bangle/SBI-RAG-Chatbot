@@ -1,0 +1,16 @@
+rating,title,text,date
+5,Great App,"Very easy to use and track my mutual funds. The interface is clean.",2024-04-20
+1,KYC Issue,"My KYC has been pending for 2 weeks. Very frustrating. No support response.",2024-04-18
+2,Payment Failed,"Tried to invest via UPI but the transaction failed twice. Money got deducted but not reflecting.",2024-04-15
+4,Good but slow,"The app is good but takes a lot of time to load the portfolio page.",2024-04-12
+5,Best for SBI users,"Since I have an SBI account, integration is seamless. Love the SIP feature.",2024-04-10
+1,Withdrawal stuck,"I initiated a redemption 3 days ago, still haven't received the funds. Support is useless.",2024-04-05
+3,UI could be better,"The new update changed the layout. It's confusing now to find the 'invest more' button.",2024-04-01
+2,Login loop,"The app keeps asking for OTP again and again. Unable to login since morning.",2024-03-28
+5,Excellent tracking,"The portfolio tracking feature is better than many competitors.",2024-03-25
+1,KYC rejected again,"They rejected my documents for the third time without telling why. Moving to Groww.",2024-03-20
+4,Helpful support,"Had a query about my SIP, the chat support resolved it within 10 minutes.",2024-03-15
+2,UPI transaction error,"Constant 'technical error' during payment. Please fix the UPI gateway.",2024-03-10
+5,Simple and effective,"Does exactly what it says. No clutter.",2024-03-05
+1,Unable to track SIP,"My SIP amount is deducted but I can't see the units in the app.",2024-03-01
+3,Average experience,"Functional but needs more scheme details like exit load and expense ratio clearly visible.",2024-02-25
